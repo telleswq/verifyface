@@ -8,7 +8,6 @@ inutilizavel por ausencia de CUDA.
 
 import platform
 import shutil
-import subprocess
 import sys
 
 OK = "\033[92m OK \033[0m"
