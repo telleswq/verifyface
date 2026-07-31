@@ -17,3 +17,8 @@ quote-style = "double"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-v --strict-markers"
+filterwarnings = [
+    # face_recognition_models usa pkg_resources, removido do setuptools
+    # moderno. O aviso e da dependencia, nao do nosso codigo.
+    "ignore:pkg_resources is deprecated:UserWarning",
+]
