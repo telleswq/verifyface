@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Ferramentas
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# LGPD: dados biometricos NUNCA sao versionados
+galeria/*
+!galeria/.gitkeep
+midia/*
+!midia/.gitkeep
+saida/
+.env
+
+# macOS
+.DS_Store
